@@ -50,10 +50,18 @@ body {
   background-color: transparent;
   background: rgba(0,0,0,0.5);
   border-color: transparent;
+
 }
 
-.navbar.navbar-tecnoland li{
-  color: green;
+.navbar.navbar-tecnoland ul{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+}
+
+.navbar.navbar-tecnoland .item{
+  flex-grow: 1;
 }
 
 .ancho-total{
