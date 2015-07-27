@@ -8,22 +8,41 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="bower_component/font-awesome/font-awesome.css">
     <!-- endbuild -->
   </head>
   <body ng-app="tecnolandApp">
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <div id="twitterHasTag" class="texto">
+      <span class="twitter">
+        <a href="">#Tecnoland2015</a>
+      </span>      
+    </div>
+
+    <div id="socialLinks" class="collapse navbar-collapse navbar-static-top">      
+      <ul class="list-inline">
+        <li><i class="fa fa-facebook-official fa-2x"></i></li>
+        <li><i class="fa fa-google-plus-square fa-2x"></i></li>
+        <li><i class="fa fa-twitter-square fa-2x"></i></li>
+        <li><i class="fa fa-youtube-play fa-2x"></i></li>
+        <li><i class="fa fa-envelope-square fa-2x"></i></li>
+      </ul>
+    </div>
+
     <div class="container-fluid">
       <div class="starter-template">
         <div ng-view=""></div>
       </div>
     </div>
+    
     
     
     <nav class="navbar navbar-inverse navbar-fixed-bottom navbar-tecnoland ">
@@ -40,7 +59,7 @@
       
         <div id="navbar" class="collapse navbar-collapse navbar-static-top">
           <ul class="nav navbar-nav text-center">
-            <li class="item"><a class=" navbar-brand btn-lg" href="#home"> <i class="glyphicon glyphicon-home "></i></a></li>
+            <li class="item"><a class=" navbar-brand-tecnoland btn-lg" href="#home"> <i class="glyphicon glyphicon-home "></i></a></li>
             <li class="item active "><a href="#">TORNEOS</a></li>
             <li class="item"><a href="#about">EXPOSICIONES Y CONFERENCIAS</a></li>
             <li class="item"><a href="#contact">GALERÍA</a></li>
