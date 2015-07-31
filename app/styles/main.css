@@ -62,7 +62,7 @@ body {
 .navbar.navbar-tecnoland ul{
   justify-content: center;
   /*display: flex;*/
-  width: 100%;
+  width: auto;
   font-size: 15px;
 }
 
@@ -80,6 +80,26 @@ body {
   padding: 15px 0px;
   font-size: 18px;
   line-height: 20px;
+}
+
+/*Submenú personalizado para Tecnoland*/
+.dropdown-tecnoland{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+
+.dropdown-tecnoland li{
+  background-color: transparent;
+}
+
+.dropdown-tecnoland>li>a{
+  color: white;
+}
+
+.dropdown-tecnoland>li>a:hover{
+  background-color: orange;
+  color: white;
 }
 
 /*Banner*/
