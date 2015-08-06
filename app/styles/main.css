@@ -134,6 +134,29 @@ body {
   color: white;
 }
 
+/*Cabecera secciones web*/
+.cabeceraSeccion{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*Fieldsets*/
+fieldset.cabeceraSeccion-borde{
+  border: 1px grove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  -webkit-box-shadow: 0px 0px 0px 0px #FFF;
+  box-shadow: 0px 0px 0px 0px #FFF;
+}
+
+legend.cabeceraSeccion-borde{
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+}
+
 /*Estilos varios para el detalle de la página*/
 
 .contenedor {
@@ -142,6 +165,29 @@ body {
   border-color: transparent;
 }
 
+.contenedor span{
+  background-color: transparent;
+  background-color: rgba(0,0,0,0.5);
+  border-color: transparent;
+}
+
+.contenedor div{
+  background-color: transparent;
+  background-color: rgba(0,0,0,0.5);
+  border-color: transparent;
+}
 .ancho-total{
   width: 100%;
+}
+
+.descripcionTorneo{
+  float: none;
+  text-align: left;
+  font-size: 18px;
+}
+
+.premiosTorneo{
+  float: right;
+  text-align: right;
+  font-size: 18px;
 }
